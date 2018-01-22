@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+	margin: 0; 
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(Background_Studio.jpeg) ;
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+	
+}
+.content {
+	max-width: 800px;
+	margin: 0 auto ;
+	text-align: center;
+	padding-bottom: 20%;
+	
+}
+.content h7{
+	font-family: "Yantramanav", sans-serif;
+	font-size: 350%;
+	font-weight: 100;
+	color: #E1EFE9;
+	line-height: 800%;
+}
+.btn {
+	font-family: "Montserrat", sans-serif;
+	font-size: 135%;
+	font-weight: 100;
+	color:#A8D66B;
+	text-transform: uppercase;
+	text-decoration: none;
+	border:solid #3A6168;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all 0s;
+}
+.btn:hover{
+	color: #CBDFD6;
+	border: solid #CBDFD6;
+	
+}
+
+@media screen and (max-width: 900px) {
+
+	.content {
+		padding-bottom: 30;
+	}
+	.content h1{
+		font-size: 450%;
+	}
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+	
+}
